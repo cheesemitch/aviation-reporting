@@ -1,0 +1,381 @@
+{ "goals": [
+    {
+      "id": "1",
+      "name": "Grow international brand awareness",
+      "description": "Goals are undoubtedly critical to your business's success. To sum it up, the main difference between a goal and an objective is that goals provide direction whereas objectives measure how you should follow that direction.",
+      "status": "",
+      "color": "cyan-400",
+      "lastUpdated": "Sep 5, 2022" ,
+      "objectives": [
+        {
+          "id": "1",
+          "name": "Grow credibility and reputation",
+          "color": "cyan-400",
+          "type": "Strategic",
+          "state": "Monitoring",
+          "description": "Leverage social proof to increase cedibility and improve reputation.",
+          "responsibleUserId": "1",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "Number of views on testimonial page",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "",
+              "actual": 9500,
+              "expected": 10000,
+              "target": 15000
+            },
+            {
+              "id": "2",
+              "name": "Average click-through rate in communication campaign",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "%",
+              "actual": 10,
+              "expected": 15,
+              "target": 20
+            },
+            {
+              "id": "3",
+              "name": "No. of shares on LinkedIn",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "",
+              "actual": 600,
+              "expected": 500,
+              "target": 1000
+            },
+            {
+              "id": "4",
+              "name": "Average acquisition cost per customer",
+              "icon": "ChartBarIcon",
+              "type" : "Decrease",
+              "unit": "$",
+              "actual": 60,
+              "expected": 50,
+              "target": 20
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Partner up with thought leaders to promote our testimonials page",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Reach out to power users and ask to share their success stories in video format",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Implement Campaign for LinkedIn marketing",
+              "status": "In Progress"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Improve sales process",
+          "color": "cyan-400",
+          "type": "Operational",
+          "state": "Monitoring",
+          "description": "Personalize sales approach and nurture new potential customers better",
+          "responsibleUserId": "1",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "Number of touchpoints with a new lead",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "",          
+              "actual": 5,
+              "expected": 6,
+              "target": 10
+            },
+            {
+              "id": "2",
+              "name": "Follow up email open rate",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",
+              "actual": 10,
+              "expected": 15,
+              "target": 20
+            },
+            {
+              "id": "3",
+              "name": "Average score on customer satisfaction",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",         
+              "actual": 51,
+              "expected": 60,
+              "target": 80         
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Update the customer journey map to improve the nurturing process",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Take a course on best practice email approaches and consult with the Marketing team",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Create different offers for different use cases, review the sales pitch",
+              "status": "In Progress"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Improve customer retention",
+          "color": "cyan-400",
+          "type": "Operational",
+          "state": "Monitoring",
+          "description": "Improve customer retention by increased engagement with new and existing customers",
+          "responsibleUserId": "2",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "Open rate of in-product communication",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",          
+              "actual": 10,
+              "expected": 11,
+              "target": 20
+            },
+            {
+              "id": "2",
+              "name": "Average response time",
+              "icon": "ChartBarIcon",
+              "type": "Decrease",
+              "unit": "Hours",
+              "actual": 8,
+              "expected": 6,
+              "target": 2
+            },
+            {
+              "id": "3",
+              "name": "Service quality rating",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",         
+              "actual": 60,
+              "expected": 75,
+              "target": 90         
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Analyze open rate from previous quarter and draft new copies for in-app messages",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Personalize outgoing communication",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Create a high quality FAQ section and stock answers to speed up responses",
+              "status": "In Progress"
+            },
+            {
+              "id": "4",
+              "name": "Survey our high engagement customers to ask what they like in our services",
+              "status": "In Progress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Become a market leader",
+      "description": "Goals are undoubtedly critical to your business's success. To sum it up, the main difference between a goal and an objective is that goals provide direction whereas objectives measure how you should follow that direction.",
+      "status": "",
+      "color": "pink-500",
+      "lastUpdated": "Sep 5, 2022" ,
+      "objectives": [
+        {
+          "id": "1",
+          "name": "Launch new product",
+          "color": "pink-500",
+          "type": "Strategic",
+          "state": "Monitoring",
+          "description": "Launch the new product successfully by the end of 2023",
+          "responsibleUserId": "1",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "Software Development progress",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "%",
+              "actual": 20,
+              "expected": 30,
+              "target": 100
+            },
+            {
+              "id": "2",
+              "name": "Website Development progress",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "%",
+              "actual": 10,
+              "expected": 15,
+              "target": 100
+            },
+            {
+              "id": "3",
+              "name": "Series A Investment",
+              "icon": "ChartBarIcon",
+              "type" : "Increase",
+              "unit": "k€",
+              "actual": 100,
+              "expected": 122,
+              "target": 1000
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Partner up with thought leaders to promote our testimonials page",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Reach out to power users and ask to share their success stories in video format",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Implement Campaign for LinkedIn marketing",
+              "status": "In Progress"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Optimize our customer acquisition",
+          "color": "pink-500",
+          "type": "Operational",
+          "state": "Monitoring",
+          "description": "Generate more Unique leads and accounts via Account-Based Marketing",
+          "responsibleUserId": "1",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "MQLs from email marketing",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "",          
+              "actual": 57,
+              "expected": 56,
+              "target": 150
+            },
+            {
+              "id": "2",
+              "name": "MQLs from AdWords",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",
+              "actual": 44,
+              "expected": 45,
+              "target": 100
+            },
+            {
+              "id": "3",
+              "name": "MQLs from organic search",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",         
+              "actual": 40,
+              "expected": 38,
+              "target": 80         
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Update the customer journey map to improve the nurturing process",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Take a course on best practice email approaches and consult with the Marketing team",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Create different offers for different use cases, review the sales pitch",
+              "status": "In Progress"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Improve Our Website and Grow Conversions",
+          "color": "pink-500",
+          "type": "Operational",
+          "state": "Monitoring",
+          "description": "Improve UI and UX of our Website and Grow Conversions",
+          "responsibleUserId": "2",
+          "keyresults": [
+            {
+              "id": "1",
+              "name": "Unique website visitors per month",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "",          
+              "actual": 100,
+              "expected": 111,
+              "target": 200
+            },
+            {
+              "id": "2",
+              "name": "Conversions on Landing Page",
+              "icon": "ChartBarIcon",
+              "type": "Increase",
+              "unit": "%",
+              "actual": 10,
+              "expected": 12,
+              "target": 30
+            }
+          ],
+          "initiatives": [
+            {
+              "id": "1",
+              "name": "Analyze open rate from previous quarter and draft new copies for in-app messages",
+              "status": "In Progress"
+            },
+            {
+              "id": "2",
+              "name": "Personalize outgoing communication",
+              "status": "In Progress"
+            },
+            {
+              "id": "3",
+              "name": "Create a high quality FAQ section and stock answers to speed up responses",
+              "status": "In Progress"
+            },
+            {
+              "id": "4",
+              "name": "Survey our high engagement customers to ask what they like in our services",
+              "status": "In Progress"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

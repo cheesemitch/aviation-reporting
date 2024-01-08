@@ -1,0 +1,30 @@
+{
+  "initiatives": [
+    {
+      "id": "3",
+      "name": "Implemente ERP System",
+      "status": "In Progress"
+    },
+    {
+      "id": "4",
+      "name": "Online Marketing Campaign",
+      "status": "In Progress"
+    },
+    {
+      "id": "6",
+      "name": "Install automated fulfillment system",
+      "status": "In Progress"
+    },
+    {
+      "id": "7",
+      "name": "Zero delivery fees",
+      "status": "Implemented"
+    },
+    {
+      "id": "9",
+      "name": "Automated coupon give away on each purchase.",
+      "status": "Implemented"
+    }
+  ]
+}
+

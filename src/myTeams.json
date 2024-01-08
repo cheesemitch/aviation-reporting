@@ -1,0 +1,20 @@
+{
+    "teams": [
+        { 
+            "id": 1,
+            "name": "Recht/Versicherungen/Gremien",
+            "slug": "Recht-Versicherungen-Gremien",           
+            "image": "/images/recht-versicherungen-gremien.jpg", 
+            "members": "6",
+            "description": "Recht/Versicherungen/Gremien lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat ac tincidunt vitae semper quis lectus nulla."
+        },
+        { 
+            "id": 2,
+            "name": "Forschung & Entwicklung",
+            "slug": "forschung-und-entwicklung",            
+            "image": "/images/bah.jpg", 
+            "members": "5",
+            "description": "Bremen Airport Handling lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat ac tincidunt vitae semper quis lectus nulla." 
+        }
+    ]
+}

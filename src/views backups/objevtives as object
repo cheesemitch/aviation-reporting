@@ -1,0 +1,69 @@
+objectives: [
+        {
+          id: '1',
+          name: 'Online Market Growth',
+          color: 'blue',
+          type: 'strategic',
+          description: 'Increase online sales and presence through order fulfillment excellence and online process improvement.',
+          keyresults: [
+            {
+              id: '2',
+              name: 'Online Revenue',
+              icon: 'ChartBarIcon',
+              unit: 'K€',
+              target: 240,
+              expected: 166,
+              actual: 300,
+              initiatives: [
+                {
+                  id: '3',
+                  name: 'Implement ERP System',
+                  status: 'In Progress'
+                },
+                {
+                  id: '4',
+                  name: 'Online Marketing Campaign',
+                  status: 'In Progress'
+                }
+              ]
+            },
+            {
+              id: '5',
+              name: 'Customer Rating',
+              icon: 'ChartBarIcon',
+              unit: '',
+              target: 9.8,
+              expected: 8,
+              actual: 8.1,
+              initiatives: [
+                {
+                  id: '6',
+                  name: 'Install automated fulfillment system',
+                  status: 'In Progress'
+                },
+                {
+                  id: '7',
+                  name: 'Zero delivery fees',
+                  status: 'Implemented'
+                }
+              ]
+            },
+            {
+              id: '8',
+              name: 'Active Accounts',
+              icon: 'ChartBarIcon',
+              unit: 'mil',
+              target: 10,
+              expected: 6,
+              actual: 5.1,
+              initiatives: [
+                {
+                  id: '9',
+                  name: 'Coupon give away on each purchase',
+                  status: 'Implemented'
+                }
+              ]
+            }
+          ]
+        }
+      ]

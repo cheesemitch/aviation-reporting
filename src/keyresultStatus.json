@@ -1,0 +1,40 @@
+{
+  "status": [
+    {
+      "id": "1",
+      "name": "Exceeded",
+      "textColor": "text-sky-800",
+      "backgroundColor": "bg-sky-100",
+      "circleColor": "text-sky-400",
+      "thresholdFrom": 10,
+      "thresholdTo": 999999
+    },
+    {
+      "id": "2",
+      "name": "On track",
+      "textColor": "text-green-800",
+      "backgroundColor": "bg-green-100",
+      "circleColor": "text-green-400",
+      "thresholdFrom": -10,
+      "thresholdTo": 10
+    },
+    {
+      "id": "3",
+      "name": "At risk",
+      "textColor": "text-sky-800",
+      "backgroundColor": "bg-sky-100",
+      "circleColor": "text-sky-400",
+      "thresholdFrom": -30,
+      "thresholdTo": -10
+    },
+    {
+      "id": "4",
+      "name": "Off track",
+      "textColor": "text-sky-800",
+      "backgroundColor": "bg-sky-100",
+      "circleColor": "text-sky-400",
+      "thresholdFrom": -9999999,
+      "thresholdTo": -30
+    }
+  ]
+}

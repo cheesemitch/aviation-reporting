@@ -1,0 +1,141 @@
+{
+    "teams": [
+        { 
+            "id": 4,
+            "name": "Sales/Marketing/Medien",
+            "slug": "Sales-Marketing-Medien", 
+            "image": "/images/sales-marketing-medien.jpg", 
+            "members": "3",
+            "description": "Sales/Marketing/Medien lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat ac tincidunt vitae semper quis lectus nulla.",
+            "objectives": [
+                {
+                    "id": "5",
+                    "name": "Optimize our customer acquisition",
+                    "color": "cyan-400",
+                    "secondaryColor": "cyan-50",
+                    "textColor": "cyan-700",
+                    "type": "Operational",
+                    "state": "Monitoring",
+                    "description": "Generate more Unique leads and accounts via Account-Based Marketing",
+                    "responsibleUserId": "1",
+                    "goalName": "Become a market leader",
+                    "goalDescription": "Goals are undoubtedly critical to your business's success. To sum it up, the main difference between a goal and an objective is that goals provide direction whereas objectives measure how you should follow that direction.",
+                    "keyresults": [
+                        {
+                        "id": "14",
+                        "name": "MQLs from email marketing",
+                        "icon": "ChartBarIcon",
+                        "type": "Increase",
+                        "unit": "",          
+                        "actual": 57,
+                        "expected": 56,
+                        "target": 150
+                        },
+                        {
+                        "id": "15",
+                        "name": "MQLs from AdWords",
+                        "icon": "ChartBarIcon",
+                        "type": "Increase",
+                        "unit": "%",
+                        "actual": 44,
+                        "expected": 45,
+                        "target": 100
+                        },
+                        {
+                        "id": "16",
+                        "name": "MQLs from organic search",
+                        "icon": "ChartBarIcon",
+                        "type": "Increase",
+                        "unit": "%",         
+                        "actual": 40,
+                        "expected": 38,
+                        "target": 80         
+                        }
+                    ],
+                    "initiatives": [
+                        {
+                        "id": "1",
+                        "name": "Update the customer journey map to improve the nurturing process",
+                        "status": "In Progress"
+                        },
+                        {
+                        "id": "2",
+                        "name": "Take a course on best practice email approaches and consult with the Marketing team",
+                        "status": "In Progress"
+                        },
+                        {
+                        "id": "3",
+                        "name": "Create different offers for different use cases, review the sales pitch",
+                        "status": "In Progress"
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "name": "Improve Our Website and Grow Conversions",
+                    "color": "cyan-400",
+                    "secondaryColor": "cyan-50",
+                    "textColor": "cyan-700",
+                    "type": "Operational",
+                    "state": "Monitoring",
+                    "description": "Improve UI and UX of our Website and Grow Conversions",
+                    "responsibleUserId": "2",
+                    "goalName": "Become a market leader",
+                    "goalDescription": "Goals are undoubtedly critical to your business's success. To sum it up, the main difference between a goal and an objective is that goals provide direction whereas objectives measure how you should follow that direction.",
+                    "keyresults": [
+                        {
+                        "id": "17",
+                        "name": "Unique website visitors per month",
+                        "icon": "ChartBarIcon",
+                        "type": "Increase",
+                        "unit": "",          
+                        "actual": 100,
+                        "expected": 111,
+                        "target": 200
+                        },
+                        {
+                        "id": "18",
+                        "name": "Conversions on Landing Page",
+                        "icon": "ChartBarIcon",
+                        "type": "Increase",
+                        "unit": "%",
+                        "actual": 10,
+                        "expected": 12,
+                        "target": 30
+                        }
+                    ],
+                    "initiatives": [
+                        {
+                        "id": "1",
+                        "name": "Analyze open rate from previous quarter and draft new copies for in-app messages",
+                        "status": "In Progress"
+                        },
+                        {
+                        "id": "2",
+                        "name": "Personalize outgoing communication",
+                        "status": "In Progress"
+                        },
+                        {
+                        "id": "3",
+                        "name": "Create a high quality FAQ section and stock answers to speed up responses",
+                        "status": "In Progress"
+                        },
+                        {
+                        "id": "4",
+                        "name": "Survey our high engagement customers to ask what they like in our services",
+                        "status": "In Progress"
+                        }
+                    ]
+                }
+            ]
+        },
+        { 
+            "id": 2,
+            "name": "Forschung & Entwicklung",
+            "slug": "forschung-und-entwicklung",            
+            "image": "/images/bah.jpg", 
+            "members": "5",
+            "description": "Bremen Airport Handling lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat ac tincidunt vitae semper quis lectus nulla." 
+        }
+    ]
+}
