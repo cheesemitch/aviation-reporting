@@ -1,7 +1,8 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import About from '../views/about.vue';
+import ApplicationShell from '../components/TheApplicationShell.vue';
 
-import About from '../views/about.vue'
-import ApplicationShell from '../components/TheApplicationShell.vue'
+const base = process.env.NODE_ENV === 'production' ? '/aviation-reporting/' : '/';
 
 const routes = [
   {path: '/', redirect: '/app/dashboard'},
@@ -55,8 +56,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(base),
   routes
-})
+});
 
-export default router
+export default router;
