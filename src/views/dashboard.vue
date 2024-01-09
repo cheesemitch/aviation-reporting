@@ -21,7 +21,7 @@ export default {
     </div>
     <div class="py-4 h-screen">
       <div class="h-5/6">
-        <chartDemo class=" border rounded-xl bg-white overflow-hidden">
+        <chartDemo class="border rounded-xl bg-white overflow-hidden">
 
         </chartDemo>
       </div>
