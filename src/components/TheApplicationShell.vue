@@ -267,7 +267,7 @@ const sidebarOpen = ref(false)
     <!-- Container -->
     <div class="lg:pl-68 flex flex-col">
       <!-- Top navigation bar -->
-      <div class="sticky dark:border-b dark:border-gray-700 dark:lg:border-transparent top-0 z-10 flex-shrink-0 flex h-16 bg-white dark:bg-transparent dark:backdrop-blur-lg shadow dark:shadow-none">
+      <div class="lg:hidden sticky dark:border-b dark:border-gray-700 dark:lg:border-transparent top-0 z-10 flex-shrink-0 flex h-16 bg-white dark:bg-transparent dark:backdrop-blur-lg shadow dark:shadow-none">
          <!-- Mobile menu button -->
         <button type="button" class="px-4 border-r border-gray-200 dark:border-gray-700 text-gray-500 
         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 lg:hidden" @click="sidebarOpen = true">
