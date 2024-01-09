@@ -1,1 +1,0 @@
-import{_ as s,a as o,c as r,b as e}from"./index.9f939a32.js";const t={},a=e("h1",{class:"text-2xl font-semibold text-gray-900"},"Risikoprofil",-1),c=e("div",{class:"py-4"},[e("div",{class:"border-4 border-dashed border-gray-200 rounded-lg h-96"})],-1),d=[a,c];function i(n,_){return o(),r("div",null,d)}var f=s(t,[["render",i]]);export{f as default};
