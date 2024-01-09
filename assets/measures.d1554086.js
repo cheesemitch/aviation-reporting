@@ -1,1 +1,0 @@
-import{_ as s,a as r,c as a,b as e}from"./index.0a11efb2.js";const o={},t=e("h1",{class:"text-2xl font-semibold text-gray-900"},"Ma\xDFnahmen",-1),c=e("div",{class:"py-4"},[e("div",{class:"border-4 border-dashed border-gray-200 rounded-lg h-96"})],-1),d=[t,c];function n(_,l){return r(),a("div",null,d)}var h=s(o,[["render",n]]);export{h as default};
