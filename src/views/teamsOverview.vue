@@ -21,7 +21,22 @@ export default {
       teams : teamsData.teams
     }
   },
-
+  computed: {
+    adjustedMyTeams() {
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return this.myTeams.map(team => ({
+        ...team,
+        image: basePath + team.image
+      }));
+    },
+    adjustedTeams() {
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return this.teams.map(team => ({
+        ...team,
+        image: basePath + team.image
+      }));
+    }
+  },
   methods: {
     closeModal() {
       this.isOpen = false
@@ -160,7 +175,7 @@ export default {
           
           <!-- my teams for loop -->
           <router-link 
-            v-for="team in myTeams" 
+            v-for="team in adjustedMyTeams" 
             :key="team.id" 
             :to="{name: 'team.details', params:{id: team.id, slug: team.slug}}"
             class="flex flex-col group rounded-lg shadow-sm overflow-hidden border border-transparent hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-gray-500">
@@ -212,7 +227,7 @@ export default {
         <div class="grid grid-cols-1 gap-4 my-6">
 
           <router-link 
-            v-for="team in teams"
+            v-for="team in adjustedTeams"
             :to="{name: 'team.details', params:{id: team.id, slug: team.slug}}"  
             :key="team.id" 
             class="rounded-lg group bg-white dark:bg-gray-800 px-6 py-5 shadow-sm flex items-center space-x-3 border border-transparent hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-gray-500">

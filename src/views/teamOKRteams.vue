@@ -24,7 +24,22 @@ export default {
       otherTeams : otherTeamsData.teams
     }
   },
-
+  computed: {
+    adjustedMyTeams() {
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return myTeamsData.teams.map(team => ({
+        ...team,
+        image: basePath + team.image
+      }));
+    },
+    adjustedOtherTeams() {
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return otherTeamsData.teams.map(team => ({
+        ...team,
+        image: basePath + team.image
+      }));
+    }
+  },
   methods: {
     closeModal() {
       this.isOpen = false
@@ -191,7 +206,7 @@ export default {
           Overview of my teams and their objectives.
         </p>
         <div class="grid grid-cols-1 gap-4 my-6">
-          <OkrTeamListItem v-for="team in myTeams" :key="team.id" :team="team"></OkrTeamListItem> 
+          <OkrTeamListItem v-for="team in adjustedMyTeams" :key="team.id" :team="team"></OkrTeamListItem> 
         </div>
       </section>
       <!-- All teams list -->
@@ -205,7 +220,7 @@ export default {
           </div>
         </div>
         <div class="grid grid-cols-1 gap-4 my-6">
-          <OkrTeamListItem v-for="team in otherTeams" :key="team.id" :team="team"></OkrTeamListItem>
+          <OkrTeamListItem v-for="team in adjustedOtherTeams" :key="team.id" :team="team"></OkrTeamListItem>
         </div>
       </section>
     </div>

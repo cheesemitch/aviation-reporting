@@ -41,11 +41,18 @@ export default {
     }
   },
   computed: {
-    team () {
-       return teamsData.teams.find(
-          (team) => team.id === parseInt(this.id)
-        );
-      },
+    team() {
+      const foundTeam = teamsData.teams.find(
+        (team) => team.id === parseInt(this.id)
+      );
+      if (!foundTeam) return null;
+
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return {
+        ...foundTeam,
+        image: basePath + foundTeam.image
+      };
+    },
     memberdetail() {
       return this.members.find(
         (memberdetail) => memberdetail.uid == this.memberDetailUid

@@ -4,7 +4,13 @@ import CompanyLogo from '../companyLogo.json'
 export default {
     data () {
       return {
-        logo: CompanyLogo.logo
+        logoPath: CompanyLogo.logo
+    }
+  },
+  computed: {
+    logo() {
+      const basePath = process.env.NODE_ENV === 'production' ? '/aviation-reporting' : '';
+      return basePath + this.logoPath;
     }
   }
 }
