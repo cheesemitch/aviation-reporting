@@ -15,7 +15,7 @@ export default {
       <CompanyLogo></CompanyLogo>
       <div>
         <h1 class="pt-1 text-2xl font-semibold text-gray-900 dark:text-gray-100">Flugrouten</h1>
-        <p class="text-sm font-medium text-gray-500 dark:text-gray-400">
+        <p class="text-sm font-semibold sm:font-medium text-gray-500 dark:text-gray-400">
           Übersicht der Flugverbindungen des Flughafen Bremen für das Jahr 2023.</p>
       </div>
     </div>
