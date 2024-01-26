@@ -1,0 +1,1 @@
+import{_ as r,a as s,c as t,b as e}from"./index.34b74d53.js";const o={},c=e("h1",{class:"text-2xl font-semibold text-gray-900"},"Berichte",-1),a=e("div",{class:"py-4"},[e("div",{class:"border-4 border-dashed border-gray-200 rounded-lg h-96"})],-1),d=[c,a];function n(_,l){return s(),t("div",null,d)}var h=r(o,[["render",n]]);export{h as default};

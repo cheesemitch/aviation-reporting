@@ -1,1 +1,0 @@
-import{_ as s,a as r,c as o,b as e}from"./index.aef0392d.js";const t={},a=e("h1",{class:"text-2xl font-semibold text-gray-900"},"Risiken",-1),c=e("div",{class:"py-4"},[e("div",{class:"border-4 border-dashed border-gray-200 rounded-lg h-96"})],-1),d=[a,c];function n(_,i){return r(),o("div",null,d)}var f=s(t,[["render",n]]);export{f as default};
